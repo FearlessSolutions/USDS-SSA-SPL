@@ -139,6 +139,11 @@ export default class LibraryCardApplication extends React.Component{
                             />
                         </React.Fragment>
                 }
+                {
+                    this.state.currentTarget === "submit" &&
+                        <div>Thanks for submitting your application</div>
+
+                }
             </form>
         )
     }
