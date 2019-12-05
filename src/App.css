@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  max-width: 70vw;
+  margin:auto
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.usa-radio {
+  text-align:left;
+}
+
+.usa-checkbox{
+  text-align:left;
+}
+
+.reviewItem{
+  text-align:left;
+  height:80px;
+}
+
+.rightButton{
+  float:right;
+}
+.App-link {
+  color: #09d3ac;
+}

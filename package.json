@@ -1,0 +1,45 @@
+{
+  "name": "reference-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://fearlesssolutions.github.io/USDS-SSA-SPL/",
+  "dependencies": {
+    "@storybook/addon-knobs": "^5.2.4",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0",
+    "uswds": "^1.6.13"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.2.4",
+    "@storybook/addon-links": "^5.2.4",
+    "@storybook/addons": "^5.2.4",
+    "@storybook/react": "^5.2.4",
+    "gh-pages": "^2.1.1"
+  }
+}
