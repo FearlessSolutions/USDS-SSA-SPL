@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/USDS-SSA-SPL/precache-manifest.766c3a94ca03b9687d3d57cfaa79ad39.js"
+  "/USDS-SSA-SPL/precache-manifest.5b9daf955e67c19ab50f36f4dd3ee2ab.js"
 );
 
 self.addEventListener('message', (event) => {
